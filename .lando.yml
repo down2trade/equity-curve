@@ -1,0 +1,4 @@
+name: equity-curve
+recipe: lamp
+config:
+  webroot: .
