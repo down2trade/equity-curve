@@ -1,5 +1,5 @@
 const ctx = document.getElementById("myChart").getContext("2d");
-const response = fetch("./data.csv")
+const response = fetch((typeof path === "undefined") ? "./data.csv" : path)
     .then(response => {
         return response.text();
     })
